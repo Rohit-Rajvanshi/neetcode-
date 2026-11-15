@@ -2,7 +2,7 @@
 
 One entry per problem, grouped by NeetCode topic. Written with `/log` right after solving.
 
-## Arrays & Hashing
+## Arrays
 
 ### Max Consecutive Ones — 2026-11-15
 - **Pattern:** single pass with a running counter (reset on break)
@@ -11,6 +11,8 @@ One entry per problem, grouped by NeetCode topic. Written with `/log` right afte
 - **Complexity:** O(n) time, O(1) space
 - **How:** alone
 - **File:** `problems/course/max_consecutive_ones.py`
+
+## Two Pointers
 
 ### Remove Element — 2026-11-15
 - **Pattern:** two pointers (read/write, in-place)
