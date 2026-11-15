@@ -6,3 +6,4 @@ Re-solve from scratch when due. Intervals step 3 → 14 → 30 → done; a fail 
 | --- | --- | --- | --- | --- | --- |
 | Max Consecutive Ones | Arrays | running counter | 2026-11-18 | 3 | due |
 | Remove Element | Two Pointers | two pointers (read/write) | 2026-11-18 | 3 | due |
+| Replace Elements with Greatest Element on Right Side | Arrays | reverse traversal + running max | 2026-11-16 | 1 | due |

@@ -12,6 +12,14 @@ One entry per problem, grouped by NeetCode topic. Written with `/log` right afte
 - **How:** alone
 - **File:** `problems/course/max_consecutive_ones.py`
 
+### Replace Elements with Greatest Element on Right Side — 2026-11-15
+- **Pattern:** reverse traversal with a running max (suffix max)
+- **Key insight:** Start from the right side. Keep a running max of everything to the right, write it into the current slot, then update the max with the original value.
+- **Tripped me up:** Wouldn't have thought to go right-to-left without the hint (it would have taken hours). Even after that, hit many problems getting the implementation right. Doesn't count it as solving it on my own.
+- **Complexity:** O(n) time, O(1) space (in place)
+- **How:** watched solution (hint was close to full pseudocode)
+- **File:** `problems/course/replace_elements.py`
+
 ## Two Pointers
 
 ### Remove Element — 2026-11-15
