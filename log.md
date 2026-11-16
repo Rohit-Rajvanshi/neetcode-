@@ -20,6 +20,14 @@ One entry per problem, grouped by NeetCode topic. Written with `/log` right afte
 - **How:** watched solution (hint was close to full pseudocode)
 - **File:** `problems/course/replace_elements.py`
 
+### Concatenation of Array — 2026-11-16
+- **Pattern:** building a dynamic array (append in a loop)
+- **Key insight:** It's about the time complexity. Each `append` is amortized O(1), and passing over the array twice is 2n, but we drop the constant 2, so it's O(n). Big-O tracks how the cost grows as n grows, not the exact count of operations.
+- **Tripped me up:** Nothing.
+- **Complexity:** O(n) time, O(n) space (the 2n output)
+- **How:** alone
+- **File:** `problems/course/concatenation_of_array.py`
+
 ## Two Pointers
 
 ### Remove Element — 2026-11-15
