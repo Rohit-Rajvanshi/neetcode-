@@ -47,3 +47,11 @@ One entry per problem, grouped by NeetCode topic. Written with `/log` right afte
 - **Complexity:** O(n) time, O(n) space
 - **How:** alone
 - **File:** `problems/course/baseball_game.py`
+
+### Valid Parentheses — 2026-11-18
+- **Pattern:** stack (matching pairs)
+- **Key insight:** Think logically and look for the simpler approach. I wasn't looking in the right direction at first. Map each opener to its closer in a dict, push openers onto a stack, and on a closer check that it matches the top. I wrongly thought I shouldn't use dicts before covering hashmaps.
+- **Tripped me up:** The validity check, i.e. making sure the closing bracket matches the most recent opening one.
+- **Complexity:** O(n) time, O(n) space
+- **How:** hint
+- **File:** `problems/stacks/valid_parentheses.py`
