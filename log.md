@@ -37,3 +37,13 @@ One entry per problem, grouped by NeetCode topic. Written with `/log` right afte
 - **Complexity:** O(n) time, O(1) space
 - **How:** hint (two hints: `[:]` copy, then two pointers)
 - **File:** `problems/course/remove_element.py`
+
+## Stack
+
+### Baseball Game — 2026-11-18
+- **Pattern:** stack (simulation)
+- **Key insight:** None really, it was easy. Push scores onto a stack: `+` adds the top two, `D` doubles the top, `C` pops. Return the sum.
+- **Tripped me up:** Nothing
+- **Complexity:** O(n) time, O(n) space
+- **How:** alone
+- **File:** `problems/course/baseball_game.py`
